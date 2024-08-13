@@ -1,0 +1,66 @@
+:root{
+    --primaryColor: #EB2027;
+}
+.col-lg-7 h4{
+    color: var(--primaryColor);
+}
+p{
+    color: gray;
+}
+.circle{
+    background-color:rgb(228, 225, 225) ;
+    border: 2px dotted var(--primaryColor);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color: var(--primaryColor);
+}
+.image{
+    width: 80%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.col-lg-5{
+    position: relative;
+}
+.big{
+    font-size: 80px;
+    color: var(--primaryColor);
+    font-weight: bold;
+    
+}
+.box{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+.innercircle{
+    background-color: black;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+
+right: 0;}
+.col-lg-7 .btn{
+    background-color: var(--primaryColor);
+color: white;
+border-radius: 25px;
+}
